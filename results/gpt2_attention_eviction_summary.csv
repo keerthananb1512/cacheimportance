@@ -1,0 +1,4 @@
+method,avg_latency_s,avg_tokens_per_second,avg_memory_delta_mb,avg_theoretical_kv_cache_mb,correct,evaluated,correct_percent
+attention_recent64_top64,1.5409,5.4171,1.16,7.3162,6,14,42.9
+full_kv_cache,1.5696,5.241,3.08,8.1118,6,14,42.9
+sliding_window_128,1.5251,5.3907,1.46,7.3162,5,14,35.7
