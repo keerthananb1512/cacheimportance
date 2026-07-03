@@ -133,6 +133,24 @@ plots/kv_cache_memory_by_method.png
 plots/memory_vs_correctness.png
 ```
 
+## Results Plots
+
+### Average Latency by Method
+
+![Average latency by method](plots/latency_by_method.png)
+
+### Average Tokens per Second by Method
+
+![Average tokens per second by method](plots/tokens_per_second_by_method.png)
+
+### Average Theoretical KV Cache Memory by Method
+
+![Average theoretical KV cache memory by method](plots/kv_cache_memory_by_method.png)
+
+### KV Cache Memory vs Correctness
+
+![KV cache memory vs correctness](plots/memory_vs_correctness.png)
+
 ## Current Findings
 
 Full KV cache is much faster than no KV cache because it avoids recomputing old K,V tensors.
